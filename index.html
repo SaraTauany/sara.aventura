@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <title>Aventura no Estádio</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img.estadio do corinthians.png" alt="">
+            <p>Você é uma garota apaixonada por futebol, e hoje é a final do Corinthians! Você está animada para assistir ao jogo decisivo.</p>
+            <button class="btn-proximo" data-proximo="1">Ir direto para o estádio</button>
+            <button class="btn-proximo" data-proximo="2">Encontrar amigos antes do jogo</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>O estádio está lotado! O jogo começa, e o Corinthians vence nos pênaltis! Você recebe um convite para conhecer as jogadoras no vestiário.</p>
+            <button class="btn-proximo" data-proximo="3">Aceitar o convite</button>
+            <button class="btn-proximo" data-proximo="4">Ficar e comemorar com seus amigos</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você encontra seus amigos no caminho para o estádio. Juntos, vocês curtem a energia do jogo! O Corinthians vence, e agora você precisa decidir.</p>
+            <button class="btn-proximo" data-proximo="3">Ir ao vestiário conhecer as jogadoras</button>
+            <button class="btn-proximo" data-proximo="4">sair para comemorar a vitoria com seus amigos</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você está no vestiário! Tamires, uma das jogadoras do Corinthians, vem falar com você.</p>
+            <button class="btn-proximo" data-proximo="5">Conversar com Tamires</button>
+            <button class="btn-proximo" data-proximo="6">Tirar uma foto com as jogadoras</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você sai do estádio e continua comemorando com seus amigos. A energia é contagiante, e você nunca esquecerá esse dia!</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Tamires: "Que bom te ver aqui! O que você achou do jogo?"</p>
+            <button class="btn-proximo" data-proximo="7">Responder: "Foi incrível! Vocês jogaram muito!"</button>
+            <button class="btn-proximo" data-proximo="7">Responder: "Eu estava nervosa, mas sabia que vocês iam ganhar!"</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você tirou uma foto incrível com todos os jogadores do Corinthians! Um momento inesquecível.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Tamires sorri: "Muito obrigada! O apoio da torcida foi fundamental hoje. Que bom que você pôde vir."</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
